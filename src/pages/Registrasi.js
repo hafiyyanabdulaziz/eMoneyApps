@@ -1,5 +1,5 @@
 import React from 'react'
-import { ScrollView, StyleSheet, Text, View } from 'react-native'
+import { ScrollView, StyleSheet, View } from 'react-native'
 import Button from '../components/atoms/Button'
 import Input from '../components/atoms/Input'
 import TopBar from '../components/molecules/TopBar'
@@ -7,8 +7,7 @@ import TopBar from '../components/molecules/TopBar'
 const Registrasi = () => {
     return (
         <View >
-            <TopBar />
-
+            <TopBar title='Registrasi Akun' />
             <ScrollView  >
                 <View style={{ height: 95 }} />
                 <Input placeholder='Email' />
