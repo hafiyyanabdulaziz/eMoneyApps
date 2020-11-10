@@ -1,12 +1,10 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-import IconButton from '../atoms/IconButton'
 
 const TopBar = () => {
     return (
         <View style={styles.topbar} >
             <Text>Halo</Text>
-            <IconButton />
         </View>
     )
 }
